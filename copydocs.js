@@ -89,7 +89,7 @@ function setVars() {
     }  
   
     // Returning with test data if scriptConfig.isTest is True.
-    if (scriptConfig.isTest = '1') {
+    if (scriptConfig.isTest == '1') {
       studentInfo.push({'firstName': "Student", 'lastName': "One", 'email': "studnet1@example.com"});
       studentInfo.push({'firstName': "Student", 'lastName': "Two", 'email': "studnet2@example.com"});
       studentInfo.push({'firstName': "Student", 'lastName': "Three", 'email': "studnet3@example.com"});
