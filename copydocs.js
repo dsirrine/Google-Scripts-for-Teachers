@@ -1,3 +1,7 @@
+function runMe() {
+  setVars();
+}
+
 function setVars() {
     var sheetConfig = {'sheetName': '',
                        'rowStart': '', 
